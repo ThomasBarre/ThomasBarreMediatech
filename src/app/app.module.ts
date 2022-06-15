@@ -7,6 +7,8 @@ import { NavBarComponent } from './commons/nav-bar/nav-bar.component';
 import { NotFoundComponent } from './commons/not-found/not-found.component';
 import { HomePageComponent } from './pages/home-page/home-page.component';
 import { ProductPageComponent } from './pages/product-page/product-page.component';
+import { ProductListComponent } from './pages/product-page/product-list/product-list.component';
+import { ProductCardComponent } from './pages/product-page/product-card/product-card.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { ProductPageComponent } from './pages/product-page/product-page.componen
     NavBarComponent,
     NotFoundComponent,
     HomePageComponent,
-    ProductPageComponent
+    ProductPageComponent,
+    ProductListComponent,
+    ProductCardComponent
   ],
   imports: [
     BrowserModule
